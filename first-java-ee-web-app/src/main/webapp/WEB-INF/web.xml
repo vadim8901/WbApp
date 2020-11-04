@@ -10,6 +10,7 @@
     <servlet-name>FirstServlet</servlet-name>
     <servlet-class>ru.geekbrains.FirstServlet</servlet-class>
   </servlet>
+
   <servlet-mapping>
     <servlet-name>FirstServlet</servlet-name>
     <url-pattern>/first_servlet</url-pattern>
