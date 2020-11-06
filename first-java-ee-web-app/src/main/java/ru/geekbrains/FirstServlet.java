@@ -19,6 +19,10 @@ public class FirstServlet implements Servlet {
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
         servletResponse.getWriter().println("<h1>Hello from Servlet1</h1>");
+        servletResponse.getWriter().println("<url>");
+        servletResponse.getWriter().println("<li><a href='#news'>News</a></li>");
+        servletResponse.getWriter().println("<li><a href='#contacts'>Contacts</a></li>");
+        servletResponse.getWriter().println("</url>");
     }
 
     @Override

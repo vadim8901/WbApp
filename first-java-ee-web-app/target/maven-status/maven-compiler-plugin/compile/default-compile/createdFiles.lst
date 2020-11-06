@@ -1,2 +1,4 @@
+ru\geekbrains\FirstHTTPServlet.class
 ru\geekbrains\FirstServlet.class
-ru\geekbrains\SecondServlet.class
+ru\geekbrains\HeaderServlet.class
+ru\geekbrains\EncodingFilter.class
